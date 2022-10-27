@@ -22,12 +22,12 @@ What variable(s) are neither targets nor features, and should be removed from th
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Knowing that X-train length is 395 for this model, we had to use more than two layers. As a rule of thumb, the neurons should either be three to two times as much as the length. Having more layers and neurons will have the date be fit faster, than having just one neuron and one layer. This can be seen in the picture below.
 
-[neural_layers]()
+![neural_layers]()
 
 Were you able to achieve the target model performance?
 * Yes, the target model was achieved with a 78% of accuracy. 
 
-[accuracy_model](https://github.com/Mparra14/Neural_Network_Charity_Analysis/blob/main/model_accuracy.png)
+![accuracy_model](https://github.com/Mparra14/Neural_Network_Charity_Analysis/blob/main/model_accuracy.png)
 
 What steps did you take to try and increase model performance?
 * One column that I decided to keep was NAME, it had a significant amount of data that would create a better model, also it helps knowing which organizations had successful funding. I dropped the two columns that had the lowest value count which was status and special considerations. When it came to binning the names column it was done just like the application and classification column. 
