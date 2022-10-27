@@ -22,7 +22,7 @@ What variable(s) are neither targets nor features, and should be removed from th
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Knowing that X-train length is 395 for this model, we had to use more than two layers. As a rule of thumb, the neurons should either be three to two times as much as the length. Having more layers and neurons will have the date be fit faster, than having just one neuron and one layer. This can be seen in the picture below.
 
-![neural_layers]()
+![neural_layers](https://github.com/Mparra14/Neural_Network_Charity_Analysis/blob/main/Neural_layers.png)
 
 Were you able to achieve the target model performance?
 * Yes, the target model was achieved with a 78% of accuracy. 
